@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_contacts
+    username: root
+    password: abc123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis-plus:
+  global-config:
+    banner: false
+server:
+  port: 8080 #???
+  servlet:
+    encoding:
+      charset: UTF-8
